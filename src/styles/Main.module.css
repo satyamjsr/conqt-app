@@ -1,0 +1,82 @@
+.main {
+  margin: 12px 0;
+}
+
+.toggleSection {
+  display: flex;
+  justify-content: center;
+}
+
+.toggleSection div {
+  display: flex;
+  margin: 0 8px;
+}
+
+.toggleSection label {
+  margin-left: 4px;
+}
+
+/* ItemSection */
+
+.itemDetail {
+  margin: 24px 0;
+}
+
+.itemSection {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
+
+.itemForm {
+  width: 80vw;
+  background-color: #dbdbdb9c;
+  padding: 12px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.col {
+  width: 50%;
+  padding: 8px 0;
+}
+
+.col label {
+  display: block;
+}
+
+.col input {
+  width: 90%;
+  margin: 8px 0;
+  padding: 4px 8px;
+}
+
+.col select {
+  width: 95%;
+  margin: 8px 0;
+  padding: 4px 0px;
+}
+
+.formSubmit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  padding: 12px;
+  border: 1px solid var(--primaryColor);
+  margin: 24px auto;
+}
+
+.submitBtn {
+  padding: 8px 4px;
+  background-color: var(--primaryColor);
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin: 4px 0;
+}

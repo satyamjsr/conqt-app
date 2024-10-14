@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #007aff;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.leftSection h2 {
+  margin: 8px;
+  color: white;
+}
+
+.leftSection img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-left: 12px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.rightSection p {
+  color: white;
+  margin-right: 8px;
+  cursor: pointer;
+}
